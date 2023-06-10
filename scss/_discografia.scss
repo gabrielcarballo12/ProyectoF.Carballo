@@ -1,0 +1,190 @@
+.body__discografia {
+    background-image: linear-gradient(to right top, #fb0000, #e36000, #c98600, #aea100, #97b541);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.disco1 {
+    @include flex-column-center;
+    margin: 30px 60px;
+    background-color: rgb(170, 76, 76);
+    border: solid 1px;
+    color: rgb(22, 21, 3);
+    width: 400px;
+    padding: 20px;
+    
+    
+}
+
+
+
+@media (max-width: 500px) {
+    .disco1 {
+        width: 300px;
+    }
+}
+
+.disco2 {
+   @extend .disco1;
+   background-color: rgb(136, 156, 138);
+   color: $red;
+}
+
+@media (max-width: 500px) {
+    .disco2 {
+        width: 300px;
+    }
+}
+
+.disco3 {
+   @extend .disco1;
+   background-color: rgb(1, 3, 1);
+   color: rgb(255, 255, 255);
+}
+
+@media (max-width: 500px) {
+    .disco3 {
+        width: 300px;
+    }
+}
+.disco4 {
+    @extend .disco1;
+    background-color: rgb(1, 0, 26);
+    color: rgb(187, 184, 24);
+
+}
+@media (max-width: 500px) {
+    .disco4 {
+        width: 300px;
+    }
+}
+
+.disco5 {
+    @extend .disco1;
+    background-color: rgb(63, 62, 62);
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 500px) {
+    .disco5 {
+        width: 300px;
+    }
+}
+
+.disco6 {
+   @extend .disco1;
+   background-color: rgb(58, 134, 42);
+    color: rgb(12, 1, 63);
+}
+
+@media (max-width: 500px) {
+    .disco6 {
+        width: 300px;
+    }
+}
+
+.disco7 {
+    @extend .disco1;
+    background-color: rgb(7, 0, 107);
+   color: rgb(247, 247, 247);
+}
+
+@media (max-width: 500px) {
+    .disco7 {
+        width: 300px;
+    }
+}
+
+
+.disco8 {
+   @extend .disco1;
+   background-color: $red;
+   color: rgb(255, 255, 255);
+}
+
+@media (max-width: 500px) {
+    .disco8 {
+        width: 300px;
+    }
+}
+
+.disco9 {
+   @extend .disco1;
+   background-color: rgb(136, 51, 1);
+   color: $red;
+}
+
+@media (max-width: 500px) {
+    .disco9 {
+        width: 300px;
+    }
+}
+
+
+.disco10 {
+   @extend .disco1;
+   background-color: rgb(64, 102, 99);
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 500px) {
+    .disco10 {
+        width: 300px;
+    }
+}
+
+.disco11 {
+    @extend .disco1;
+    background-color: rgb(173, 10, 173);
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 500px) {
+    .disco11 {
+        width: 300px;
+    }
+}
+
+.disco12 {
+    @extend .disco1;
+    background-color: $gold;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 500px) {
+    .disco12 {
+        width: 300px;
+    }
+}
+
+.disco13 {
+    @extend .disco1;
+    background-color: $red;
+    color: rgb(199, 191, 191);
+}
+.disco14 {
+    @extend .disco1;
+    background-color: $gold;
+    color: rgb(0, 0, 0);
+}
+
+@media (max-width: 500px) {
+    .disco13 {
+        width: 300px;
+    }
+}
+
+.row {
+    justify-content: center;
+}
+
+.div__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 91px;
+    flex-wrap: wrap;
+}

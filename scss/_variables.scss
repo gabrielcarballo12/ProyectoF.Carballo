@@ -1,0 +1,28 @@
+/*FONTS*/
+
+$fuente-primaria: "Montserrat", sans-serif;
+$fuente-secundaria: "Poppins", sans-serif;
+
+/*COLOURS*/
+
+$blue: rgb(11, 3, 85);
+$gold: rgb(170, 133, 13);
+$red:  rgb(63, 0, 16);
+
+/*TAMAÑOS DE LETRAS*/
+
+$letra-med: 20px;
+
+/*ESPACIOS*/
+
+$espacio-titulos: 20px;
+
+
+/*MIXINS*/
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

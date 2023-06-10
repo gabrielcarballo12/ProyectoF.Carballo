@@ -1,0 +1,120 @@
+.body__merch {
+  background-image: linear-gradient(to right top, #000000, #532623, #975420, #bb9900, #a8eb12);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.vinilo1 {
+   @include flex-column-center;
+    width: 18rem;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    -webkit-box-shadow: 0px 0px 17px 0px rgb(7, 6, 6);
+    -moz-box-shadow: 0px 0px 17px 0px rgb(8, 7, 7);
+    box-shadow: 0px 0px 17px 0px rgb(12, 10, 10);
+    padding: 10px;
+    gap: 8px;
+    margin-top: $espacio-titulos;
+    z-index: 0 auto;
+}
+
+
+.vinilo2 {
+   @extend .vinilo1;
+   background-color: $red;
+}
+
+
+.vinilo3 {
+   @extend .vinilo1;
+   background-color: rgb(71, 106, 134);
+}
+
+
+
+.remera1{
+    @include flex-column-center;
+    width: 18rem;
+    background-color: rgb(60, 138, 41);
+    color: rgb(2, 1, 1);
+    -webkit-box-shadow: 0px 0px 17px 0px rgb(7, 6, 6);
+    -moz-box-shadow: 0px 0px 17px 0px rgb(8, 7, 7);
+    box-shadow: 0px 0px 17px 0px rgb(12, 10, 10);
+    padding: 10px;
+    gap: 8px;
+    margin-top: $espacio-titulos;
+
+}
+
+.remera3 p{
+    color: $red;
+}
+
+.remera2 {
+   @extend .remera1;
+   background-color: $gold;
+
+}
+
+
+.remera3 {
+ @extend .remera1;
+ background-color: rgb(144, 158, 146);
+margin-bottom: $espacio-titulos;
+}
+
+
+.button {
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.section__div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+  }
+  
+  .content__div {
+    display: flex;
+    gap: 50px;
+  }
+  @media (min-width: 375px) {
+    .content__div {
+      display: flex;
+      gap: 11px;
+    }
+  }
+  
+  .section__column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .div__icon {
+    display: flex;
+    justify-content: center;
+    gap: $espacio-titulos;
+  }
+  
+  .contacto__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (min-width: 1200px) {
+    .content__div {
+        display: flex;
+        gap: 367px;
+      }
+
+  }
